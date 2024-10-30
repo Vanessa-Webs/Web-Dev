@@ -1,0 +1,61 @@
+.foto {
+    width: 225px;
+}
+
+.foto img {
+    width: 100%;
+    height: auto;
+}
+
+.foto {
+    float: left;
+    margin: 13px;
+}
+
+.foto .judul {
+    font-size: 20px;
+    color: seagreen;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.foto {
+    position: relative;
+}
+
+.foto .nomor {
+    position: absolute;
+    width: 20%;
+    height: auto;
+    background-color: red; 
+    bottom: 25%;
+    left: 7%;
+    border-radius: 50%;
+    font-size: 20px;
+    color: white;
+    padding: 6px;
+    text-align: center;
+}
+
+.foto .keterangan {
+    position: absolute;
+}
+
+.foto .keterangan {
+    display: none;
+}
+
+.foto:hover .keterangan {
+    display: block;
+    position: absolute;
+    font-size: 14px;
+    top: 20%;
+    left: 50%;
+    color: white;
+    background-color: rgba(100, 0, 100, 0.5); text-align: center;
+    padding: 7px;
+}
+
+.foto img {
+    opacity: 0.5;
+}

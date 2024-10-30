@@ -1,0 +1,116 @@
+
+*{
+  padding: 0; 
+  margin: 0;
+  font-family: arial;}
+
+body {
+    background: #ffcccc;
+    margin-top: 25px;
+}
+
+header {
+    width: 900px;
+    background: #ffffff;
+    padding: 25px;
+    margin: auto;
+    text-align: center;
+    color: red;
+}
+
+.awal {
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+    color: black;
+}
+
+menu {
+    width: 900px; 
+    background: #0984e3;
+    margin: auto;
+    padding: 25px;
+}
+
+menu a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+menu a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.tugaskuis {
+    color: red;
+	font-size: 20px;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.tugaskuis:hover {
+    color: white;
+    text-decoration: none;
+}
+
+article {
+    width: 900px;
+    background: #ffffff;
+    margin: auto;
+    padding: 25px;
+    text-align: justify;
+}
+
+article img {
+    float: left;
+    width: 350px;
+    height: 250px; 
+    margin: 0 25px 25px 0;
+}
+
+article h1 {
+    margin: 0 0 15px 0;
+}
+
+article section img{
+	float: right;
+	margin: 0px 0px 0px 20px;
+	
+}
+
+article h2 {
+    margin: 15px 0 15px 0;
+    text-align: center;
+    color: #ffaf40;
+	font-size: 25px;
+}
+
+article h3 {
+    margin: 15px 0 15px 0;
+    text-align: center;
+    color: blue;
+	font-size: 35px;
+}
+
+article p {
+    margin: 0 0 25px 0;
+}
+
+.loremipsum{
+	margin: 25px 100px 30px 100px;
+	background-color: blue; 
+	color: white;
+	text-align: center;
+	padding: 30px;
+}
+footer {
+	width: 900px; background: #808e9b; padding: 25px; margin: 0px 0px 0px 155px;
+	text-align: center;
+	
+}
+
+footer p {
+	color: black;
+}

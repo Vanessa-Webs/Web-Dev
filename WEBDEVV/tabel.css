@@ -1,0 +1,43 @@
+table {font-family: "Arial";}
+
+caption {
+    background-color: #FAC9DE;
+    color: black;
+    font-size: 26px;
+    padding: 10px; 
+}
+
+th, td {
+    padding: 5px 25px;
+}
+
+thead {
+    background-color: #F0b2f0;
+    color: black;
+}
+
+tbody {
+    background-color: #ADC2FF;
+}
+
+td {
+    color: black;
+}
+
+tfoot {
+    background-color: #85E085;
+    color: white;
+}
+
+tbody tr th:nth-child(2) {
+    text-align: center;
+}
+
+tbody tr th:nth-child(3),
+tbody tr th:nth-child(4) {
+    text-align: right;
+}
+
+tr:nth-child(even) {
+    background-color: white;
+}

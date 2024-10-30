@@ -1,0 +1,116 @@
+* {padding: 0; margin: 0;}
+
+html {
+  font-family: system-ui;
+}
+
+header {
+  background-color: #2D394B; 
+  width: auto; 
+  height: 60px;
+  align-items: center; 
+  position: fixed; 
+  top: 0; 
+  width: 1890px; 
+  z-index: 2;
+}
+
+header .tulisankiri {
+  float: left; 
+  font-size: 15px;
+  margin-left: 30px; 
+  margin-top: 21px;
+}
+
+header .tulisankiri p:hover {
+  color: white;
+}
+
+
+.container {width: 1200px; margin: auto;}
+
+menu {height: 80px; width: auto;}
+menu .judulkiri {float: left; margin-top: 15px;}
+menu .judulmenu {float: right; padding: 25px;}
+
+menu ul li {float: left; list-style: none;}
+menu ul li a {margin-right: 10px; text-decoration: none; padding: 3px 15px; color: black;}
+
+menu ul li ul {display: none;}
+menu ul li:hover > ul {
+  display: block; 
+  z-index: 1;
+}
+menu ul li ul {position: absolute;}
+menu ul li ul li {
+ float: none;
+ position: relative;
+ padding-top: 28px;
+ padding-bottom: 28px;
+ padding-right: 100px;
+ background-color: white;
+ right: 160px;
+}
+
+body {background-color: white;}
+.container2 {background-color: #F4F6F3; width: 100%;}
+.atasbanget {width: 1180px; margin: auto; background-color: #F4F6F3; margin-top: 10px; padding: 30px 25px; margin-bottom: 50px; overflow: hidden; height: 180px;}
+.atasbanget h1{float: left; font-size: 60px; width: 330px; font-weight: 500; border-left: 4px solid black; padding-left: 20px;}
+.atasbanget p{float: left; width: 380px; margin-left: 20px; margin-top: 30px; font-size: 18px; font-weight: 350;}
+.atasbanget p a{float: left; width: 380px; margin-left: 20px;}
+
+.container3 {width: 1180px; margin: auto;}
+.container3 h1 {font-size: 50px; text-align: center; font-weight: 500; color: #1f104f;}
+.tengahtengah {overflow: hidden;}
+.container3 img{float: left; width: 313px; height: 450px; margin: 40px 40px}
+.palingbawah{overflow: hidden; background-color: black; width: 1050px; margin: auto; margin-top: 40px; margin-bottom: 70px;}
+.palingbawah h1 {float: left; width: 525px; padding: 70px 0 70px 0; color: white; font-size: 60px;}
+.palingbawah h3 {float: right; background-color: white; color: black; margin-top: 110px; padding: 12px 25px; margin-right: 90px; font-weight: 400;}
+
+
+footer {background-color: rgb(0, 0, 0); height: auto;}
+footer .footer1 {width: 1200px; margin: auto; position: relative; overflow: hidden; border-bottom: solid silver 1px;}
+footer .footer1 .kiri, .footer1 .tengah, .footer1 .kanan{
+  float: left; 
+  width: 380px; 
+  padding: 10px; 
+  height: 350px;
+  margin-top: 55px;
+}
+footer .footer1 .kanan p {font-size: 14px; color: white; float: left; margin-top: 30px;}
+footer .footer2 {color: silver; background-color: black; padding: 20px; text-align: center; font-size: 15px;}
+
+footer .footer1 .tengah {overflow: hidden;}
+footer .footer1 .tengah h2 {font-size: 24px; margin-bottom: 10px; color: white;}
+footer .footer1 .tengah hr {color: silver; width: 40px;}
+footer .footer1 .tengah img {height: 45px; width: 45px;}
+footer .footer1 .tengah .tengah1 {float: left; margin-bottom: 10px; margin-top: 10px;}
+footer .footer1 .tengah .gambartengah {float: left; margin-bottom: 5px; margin-right: 10px;}
+footer .footer1 .tengah .keterangan {float: left; font-size: 14px; color: white;}
+
+footer .footer1 .kanan {overflow: hidden; float: left}
+footer .footer1 .kanan h2 {font-size: 24px; margin-bottom: 10px; color: white;}
+footer .footer1 .kanan hr {color: silver; width: 40px;}
+footer .footer1 .kanan input {width: 100%; border-radius: 4px; margin-left: 15px; float: left; outline: none; border: none;}
+.inputText {font-size: 17px;}
+footer .footer1 .kanan .kanan1 {float: left; display: flex; align-items: center; 
+background-color: white; 
+height: 40px; 
+width: 250px; 
+border-radius: 4px; 
+border: 1px solid silver; 
+border-radius: 2px; 
+margin-top: 20px;}
+footer .footer1 .kanan .kanan2 p {color: black; background-color: white;  padding: 11px; 
+  width: 80px; 
+  text-align: center; 
+  border-radius: 3px;
+  margin-top: 21px;
+  margin-left: 10px;
+  font-weight: bold;
+}
+footer .footer1 .kiri h2 {font-size: 24px; margin-bottom: 10px; color: white;}
+footer .footer1 .kiri .atas hr {color: silver; width: 40px;}
+footer .footer1 .kiri p {font-size: 15px; margin-bottom: 8px; color: white; margin-top: 10px;}
+footer .footer1 .kiri .kirigambar img {height: 35px; width: 35px; border-radius: 1000px; padding: 5px; margin-top: 5px;}
+footer .footer1 .kiri .kirigambar img:hover {height: 38px; width: 38px;}

@@ -1,0 +1,19 @@
+* {padding: 0; margin: 0;}
+
+nav ul li { float: left; list-style: none; background: #D6A2E8;}
+nav ul li a {margin-right: 15px; text-decoration: none; padding: 3px 15px;}
+
+nav ul li ul {display: none;}
+
+nav ul li:hover > ul {display: block;}
+
+nav {position: relative; background: #FFFFFF; height: 40px; line-height: 40px;}
+nav ul li ul {position: absolute;}
+
+nav ul li ul li {float: none; position: relative;}
+
+
+nav ul li:hover {background: #f8a5c2}
+nav ul li a:hover {color: white;}
+
+nav ul ul ul {left: 100%; top: 0; width: 200px;}

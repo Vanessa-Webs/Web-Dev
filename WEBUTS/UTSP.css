@@ -1,0 +1,454 @@
+* {padding: 0; margin: 0;}
+
+html {
+  font-family: system-ui;
+}
+
+header {
+  background-color: #2D394B; 
+  width: auto; 
+  height: 60px;
+  align-items: center; 
+  position: fixed; 
+  top: 0; 
+  width: 1890px; 
+  z-index: 2;
+}
+
+header .tulisankiri {
+  float: left; 
+  font-size: 15px;
+  margin-left: 30px; 
+  margin-top: 21px;
+}
+
+header .tulisankiri p:hover {
+  color: white;
+}
+
+
+.container {width: 1200px; margin: auto;}
+
+menu {height: 80px; width: auto;}
+menu .judulkiri {float: left; margin-top: 15px;}
+menu .judulmenu {float: right; padding: 25px;}
+
+menu ul li {float: left; list-style: none;}
+menu ul li a {margin-right: 10px; text-decoration: none; padding: 3px 15px; color: black;}
+
+menu ul li ul {display: none;}
+menu ul li:hover > ul {
+  display: block; 
+  z-index: 1;
+}
+menu ul li ul {position: absolute;}
+menu ul li ul li {
+ float: none;
+ position: relative;
+ padding-top: 28px;
+ padding-bottom: 28px;
+ padding-right: 100px;
+ background-color: white;
+ right: 160px;
+}
+
+article .IMG1 img {
+  width: 1180px; 
+  position: relative; 
+  z-index: 0; 
+  height: 500px; 
+  opacity: 0.8;
+}
+
+article .IMG1 .isi {
+ position: absolute;
+ border-radius: 2px;
+ text-align: center;
+ font-size: 20px;
+ width: 137px;
+ height: 32px;
+ background-color: black;
+ padding-top: 5px;
+ padding-bottom: 5px;
+ top: 65%;
+ right: 46.8%;
+}
+article .IMG1 h1 {
+  font-size: 37px;
+  position: absolute;
+  top: 40%;
+  color: white;
+  left: 28%;
+}
+
+article .IMG1 h3 {
+  position: absolute;
+  top: 52%;
+  color: white;
+  left: 40%;
+}
+
+article .IMG2 img {
+  height: 300px; 
+  margin-top: 16px; 
+  margin-right: 19px;
+}
+article .IMG2 .kiri1 {
+  float: left;
+  position: relative;
+  opacity: 0.8;
+}
+article .IMG2 .tengah1 {
+  float: left; 
+  margin-left: 4px;
+  position: relative;
+  opacity: 0.8;
+}
+article .IMG2 .kanan1 {
+  float: left; 
+  margin-left: 4px;
+  position: relative;
+  opacity: 0.8;
+}
+
+.kiri1 h2 {
+  position: absolute; 
+  height: auto;
+  top: 100px;
+  left: 35%;
+  color: white;
+  text-align: center;
+}
+
+.kiri1 h3 {
+  position: absolute; 
+  height: auto;
+  top: 45%;
+  left: 33%;
+  padding: 2%;
+  color: white;
+  text-align: center;
+}
+
+.tengah1 h2 {
+  position: absolute; 
+  height: auto;
+  top: 100px;
+  left: 35%;
+  color: white;
+  text-align: center;
+}
+
+.tengah1 h3 {
+  position: absolute; 
+  height: auto; 
+  top: 140px;
+  left: 33%;
+  padding: 2%;
+  color: white;
+  text-align: center;
+}
+
+.kanan1 h2 {
+  position: absolute; 
+  height: auto;
+  top: 100px;
+  left: 40%;
+  color: white;
+  text-align: center;
+}
+
+.kanan1 h3 {
+  position: absolute; 
+  height: auto; 
+  top: 140px;
+  left: 34%;
+  padding: 2%;
+  color: white;
+  text-align: center;
+}
+
+article .tengahbody {
+  width: auto; 
+  margin-top: 400px; 
+  overflow: hidden;
+}
+article .tengahbody .tengahkiri1 {
+  float: left; 
+  font-size: 28px; 
+  margin-left: 2px;
+}
+article .tengahbody .bot {
+ float: right; 
+ background: black; 
+ font-size: 18px; 
+ padding-top: 8px;
+ padding-bottom: 8px;
+ padding-left: 18px;
+ padding-right: 18px;
+ border-radius: 3px;
+ margin-right: 20px;
+}
+
+article .pop {width: 1300px; overflow: hidden;}
+article .pop .top {float: left;}
+article .pop .mid {float: left;}
+article .pop .botlane {float: left;}
+
+article .pop img {
+  width: 350px; 
+  height: 362px; 
+  margin-top: 25px; 
+  margin-bottom: 20px; 
+  margin-right: 65px;
+} 
+
+
+.gray {
+  background-color: #F4F6F3; 
+  width: 1475px; 
+  margin-top: 100px; 
+  height: 250px; 
+  padding-left: 380px; 
+  overflow: hidden;
+  margin-left: -150px; 
+
+}
+.gray img {
+  width: 60px; 
+  height: 60px; 
+  padding: 20px
+}
+.gray p {font-size: 25px;}
+.gray .graykiri {
+  float: left; 
+  text-align: center; 
+  margin-right: 150px; 
+  margin-top: 50px;}
+.gray .graytengah {
+  float: left; 
+  text-align: center; 
+  margin-right: 150px; 
+  margin-top: 50px;}
+.gray .graykanan {
+  float: left; 
+  text-align: center; 
+  margin-right: 150px; 
+  margin-top: 50px;}
+
+.bawah {width: 1180px; margin: auto; overflow: hidden; margin-top: 80px; height: 530px;}
+.bawahkiri {float: left; width: 550px; padding-top: 60px;}
+.bawah h3{font-weight: 500;}
+.bawah h2{font-size: 32px; font-weight: 600; color: #1f104f;}
+.bawah h4{margin-top: 15px; font-weight: 380; color: gray; margin-bottom: 30px;}
+.bawahkiri h3 a{background-color: black; color: white; font-size: 16px; font-weight: 600; padding: 7px 20px 10px 20px; border-radius: 5px;}
+.bawah img {float: right; width: 590px; height: 440px; border-radius: 5px;}
+
+
+.testimonial {
+  background-color: #F4F6F3; 
+  height: 600px;
+}
+.testimonial .testiatas {
+  text-align: center; 
+  padding-top: 80px; 
+  padding-bottom: 50px;
+}
+
+.testimonial .testibawah {
+  margin-left: 270px;
+  overflow: hidden;
+  width: 1180px;
+  margin: auto;
+}
+.testimonial .testibawah .testikiri {
+  float: left; 
+  background-color: white; 
+  width:300px; 
+  height: 230px;   
+  border-radius: 4px; 
+  padding: 40px;
+}
+.testimonial .testibawah .testitengah {
+  float: left; 
+  background-color: black; 
+  width: 300px; 
+  height: 230px; 
+  margin-left: 18px; 
+  border-radius: 4px; 
+  padding: 40px;
+}
+.testimonial .testibawah .testikanan {
+  float: left; 
+  background-color: white; 
+  width: 300px; 
+  height: 230px; 
+  margin-left: 18px; 
+  border-radius: 4px; 
+  padding: 40px;
+}
+
+.testimonial .testibawah img {
+  height: 60px; 
+  width: 60px; 
+  border-radius: 1000px;
+}
+
+.testimonial .testibawah .faces1 {float: left;}
+.testimonial .testibawah .nama1 {
+  float: right; 
+  margin-right: 180px; 
+  margin-top: 8px;
+}
+
+.testimonial .testibawah .faces2 {float: left;}
+.testimonial .testibawah .nama2 {
+  float: right; 
+  margin-right: 165px; 
+  margin-top: 8px;
+}
+
+.testimonial .testibawah .faces3 {float: left;}
+.testimonial .testibawah .nama3 {
+  float: right; 
+  margin-right: 180px; 
+  margin-top: 8px;
+}
+
+footer {
+  background-color: black; 
+  height: 450px;
+
+}
+footer .foot1 {
+  overflow: hidden; 
+  margin-left: 180px;
+
+}
+footer .foot1 .footkiri {
+  background-color: black; 
+  width: 380px; 
+  color: white; 
+  padding: 20px; 
+  padding-right: 0px;
+  float: left; 
+  margin-top: 35px; 
+  margin-right: -30px;
+}
+footer .foot1 .footkiri .footkiri1 p {
+  font-size: 14px;
+}
+footer .foot1 h2 {
+  border-bottom: 3px solid #222222;
+}
+
+footer .foot1 .foottengah {
+  background-color: black; 
+  width: 380px; 
+  color: white; 
+  padding: 20px; 
+  padding-right: 0px;
+  float: left; 
+  margin-top: 35px;
+}
+footer .foot1 .footkanan {
+  background-color: black; 
+  width: 380px; 
+  color: white; 
+  padding: 20px; 
+  padding-right: 0px;
+  float: left; 
+  margin-top: 35px;
+}
+
+footer .foot1 .footkiri .footkiri2 img {
+  height: 35px; 
+  width: 35px; 
+  border-radius: 1000px; 
+  padding: 4px;
+}
+footer .foot1 .footkiri .footkiri2 img:hover {
+  height: 38px; 
+  width: 38px;
+}
+
+footer .foottengah .foottengahbawah img {
+  height: 45px; 
+  width: 45px;
+}
+
+footer .foottengah .foottengahbawah .gambartengah1 {
+  float: left; 
+  padding-right: 10px;
+}
+footer .foottengah .foottengahbawah .gambartengah2 {
+  float: left; 
+  padding-right: 10px;
+}
+footer .foottengah .foottengahbawah .gambartengah3 {
+  float: left; 
+  padding-right: 10px;
+}
+
+footer .footkanan input {
+  height: 40px; 
+  width: 250px; 
+  border-radius: 4px;
+}
+footer .footkanan .footkanan1 {
+  float: right;
+  overflow: hidden;
+  
+
+}
+footer .footkanan .footkanan2 h4 {
+  background-color: white; 
+  padding: 12px; 
+  float: right; 
+  width: 90px; 
+  margin-right: 5px; 
+  text-align: center; 
+  border-radius: 4px; 
+  color: black;
+}
+
+footer .foot2 {
+  color: silver; 
+  background-color: black; 
+  padding: 20px; 
+  text-align: center; 
+  font-size: 15px; 
+  border-top: 1.5px solid #222222;
+}
+.container1{
+  float: left;
+}
+
+.footkanan1 h2 {
+  margin-right: 150px;
+}
+
+.hijau {width: 1400px; margin: auto; overflow: hidden; margin-top: 50px; margin-bottom: 40px;
+  height: 100px; background-color: #5ca194; position: center; padding-top: 30px;}
+.hijau .hijau1 {color: white; overflow: hidden; margin-left: 50px;}
+
+.treding {width: 1180px; margin: auto;
+  margin-top: 80px; height: 550px; background-color: #F6F4F5;}
+.treding img {width: 170px; height: 150px;}
+.treding h3{color: turquoise; margin-bottom: 10px;}
+.tred1 .tul1{margin-left: 200px; top: 50px;}
+.tred2 .tul2 {margin-left: 200px;padding-top: 1px;}
+.tul1 {margin-top: -150px; background-color: white; width: 300px;}
+.tred2 img {margin-top: 70px;}
+.tul2 {margin-top: -150px; background-color: white; width: 300px;}
+.tred3 img {margin-top: 12px;}
+
+.con {background-color: white; margin-top: 150px;}
+.con h4{margin-left: 700px; margin-top: 90px; margin-bottom: 30px; color: blue;}
+.con h3{margin-left: 630px;margin-top: 15px; margin-bottom: 30px;}
+.con p{margin-left: 708px; width: 70px; height: 30px; background-color: blue; border-radius: 2px;}
+
+
+
+
+

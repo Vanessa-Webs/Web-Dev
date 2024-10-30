@@ -1,0 +1,138 @@
+* {padding: 0; margin: 0;}
+
+html {font-family: system-ui;}
+body {height: auto; background-color: #FAFAFA;}
+header {background-color: #2D394B; width: auto; height: 60px; align-items: center; 
+  position: fixed; top: 0; width: 1890px; z-index: 2;}
+
+header .ataskiri .taskanan {float: left; background-color: #31af36;  padding-left: 30px;  padding-right: 30px;  padding-top: 11px; 
+  padding-bottom: 11px;
+  margin-top: 8px; 
+  border-radius: 3px; 
+  margin-right: 30px;
+}
+header .ataskiri p {margin-left: 80px; margin-top: 10px;}
+
+.cover{ width: auto; background-color: white;}
+header .ataskiri .taskanan:hover {background-color: #29A22E;}
+.container {width: 1300px; margin: auto; height: auto;}
+
+menu { width: 1200px; margin: auto; height: 80px;}
+menu .judulkiriatas { float: left; margin-top: 15px;}
+menu .isimenu { float: right; padding: 25px;}
+
+menu ul li { float: left; list-style: none;}
+menu ul li a {margin-right: 10px; text-decoration: none; padding: 3px 15px; color: black}
+menu ul li ul {display: none;}
+menu ul li:hover > ul {display: block; z-index: 1;}
+menu ul li ul {position: absolute;}
+menu ul li ul li {float: none; position: relative;padding-top: 28px; 
+  padding-bottom: 28px; padding-right: 100px; background-color: white; right: 160px;}
+
+article {margin: auto; width: 1180px; margin-top: 45px; overflow: hidden;}
+article .container2 {width: 830px; float: left; height: 680px;}
+
+article .container2 .kirikanan {height: 150px;}
+article .container2 .kirikanan h1 {padding-top: 12px; padding-bottom: 12px; font-size: 35px;}
+article .container2 .tulisankanan {float: right;}
+article .container2 .tulisankanan select {height: 40px; width: 210px; text-align: center; margin-right: 45px;}
+
+article .satubaris {height: 400px;}
+article .satubaris img {width: 240px; height: 240px; margin-right: 30px;}
+
+article .satubaris .gambarkiri {float: left;}
+article .satubaris .gambartengah {float: left;}
+article .satubaris .gambarkanan {float: left;}
+
+.pagination {text-align: center; margin-top: 55px;}
+.pagination a {margin-right: 8px; padding-top: 7px; padding-bottom: 8px; padding-left: 15px; padding-right: 15px;
+ text-decoration: none; background-color: white; border: 1px solid silver; color: black;
+}
+.pagination a:active {background-color: black; color: white;}
+
+article .kategorikanan {background-color: white; width: 310px; float: right; padding: 20px;}
+article .kategorikanan .popular img {width: 50px; height: 50px;}
+
+.kananbanget1 {height: 70px;}
+.kananbanget1 .gambar1 {float: left;}
+.kananbanget1 .penjelasan11 {float: left; padding-top: 12px; padding-left: 10px;}
+
+.kananbanget2 {height: 70px;}
+.kananbanget2 .gambar2 {float: left;}
+.kananbanget2 .penjelasan22 {float: left; padding-top: 12px; padding-left: 10px;}
+
+.kananbanget3 {height: 70px;}
+.kananbanget3 .gambar3 {float: left;}
+.kananbanget3 .penjelasan33 {float: left; padding-top: 12px; padding-left: 10px;}
+
+.kananbanget4 {height: 70px;}
+.kananbanget4 .gambar4 {float: left;}
+.kananbanget4 .penjelasan44 {float: left; padding-top: 12px; padding-left: 10px;}
+
+.search input {width: 270px; height: 35px; margin-top: 10px; border-radius: 4px;}
+.search a {padding: 11px; padding-top: 5px; background-color: black; color: white; border-radius: 6px;}
+
+.price {height: 140px;}
+.price .dikiri {border: 1px solid black; float: left;
+ padding: 8px; padding-right: 40px;
+}
+.price .dikanan {border: 1px solid black; float: right;
+ padding: 8px; padding-right: 40px;
+}
+
+.sosmed .sosmed1 img {height: 80px; width: 80px; margin-top: 10px;}
+.sosmed .sosmed1 img:hover {opacity: 0.8}
+
+
+footer {background-color: rgb(0, 0, 0); height: auto;}
+footer .footer1 {width: 1200px; margin: auto; position: relative; overflow: hidden; border-bottom: solid silver 1px;}
+footer .footer1 .kiri, .footer1 .tengah, .footer1 .kanan{
+  float: left; 
+  width: 380px; 
+  padding: 10px; 
+  height: 350px;
+  margin-top: 55px;
+}
+footer .footer1 .kanan p {font-size: 14px; color: white; float: left; margin-top: 30px;}
+footer .footer2 {color: silver; background-color: black; padding: 20px; text-align: center; font-size: 15px;}
+
+footer .footer1 .tengah {overflow: hidden;}
+footer .footer1 .tengah h2 {font-size: 24px; margin-bottom: 10px; color: white;}
+footer .footer1 .tengah hr {color: silver; width: 40px;}
+footer .footer1 .tengah img {height: 45px; width: 45px;}
+footer .footer1 .tengah .tengah1 {float: left; margin-bottom: 10px; margin-top: 10px;}
+footer .footer1 .tengah .gambartengah {float: left; margin-bottom: 5px; margin-right: 10px;}
+footer .footer1 .tengah .keterangan {float: left; font-size: 14px; color: white;}
+
+footer .footer1 .kanan {overflow: hidden; float: left}
+footer .footer1 .kanan h2 {font-size: 24px; margin-bottom: 10px; color: white;}
+footer .footer1 .kanan hr {color: silver; width: 40px;}
+footer .footer1 .kanan input {width: 100%; border-radius: 4px; margin-left: 15px; float: left; outline: none; border: none;}
+.inputText {font-size: 17px;}
+footer .footer1 .kanan .kanan1 {float: left;
+display: flex; 
+align-items: center; 
+background-color: white; 
+height: 40px; 
+width: 250px; 
+border-radius: 4px; 
+border: 1px solid silver; 
+border-radius: 2px; 
+margin-top: 20px;}
+footer .footer1 .kanan .kanan2 p {
+  color: black;
+  background-color: white; 
+  padding: 11px; 
+  width: 80px; 
+  text-align: center; 
+  border-radius: 3px;
+  margin-top: 21px;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+footer .footer1 .kiri h2 {font-size: 24px; margin-bottom: 10px; color: white;}
+footer .footer1 .kiri .atas hr {color: silver; width: 40px;}
+footer .footer1 .kiri p {font-size: 15px; margin-bottom: 8px; color: white; margin-top: 10px;}
+footer .footer1 .kiri .kirigambar img {height: 35px; width: 35px; border-radius: 1000px; padding: 5px; margin-top: 5px;}
+footer .footer1 .kiri .kirigambar img:hover {height: 38px; width: 38px;}

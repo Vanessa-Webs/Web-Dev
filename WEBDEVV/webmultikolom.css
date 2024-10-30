@@ -1,0 +1,131 @@
+* {padding: 0; margin: 0}
+
+body {background: #F8EFBA;}
+
+.container {width: 1050px; margin: auto; background: #D6A2E8;}
+
+/* ini css header */
+header {height: 125px; background: #3c6382; overflow: hidden;}
+header .kiri img {width: 100px; height: 100px; margin: 15px 0 0 35px; float: left;}
+header .kanan {float: left; font-size: 20 px; color: white; margin-top: 15px; margin-left: 90px;}
+header .kanan p {margin-left: -0.9px;}
+
+article {overflow: hidden; padding: 20px 20px;}
+article .kiri h1 {color: #0d0c0c; margin-bottom: 10px; font-size: 30px; font-family: gambria;}
+article .kiri p {text-align: justify; margin-bottom: 15px;}
+article .kanan h1 {color: #0b0909; margin-bottom: 10px; font-size: 30px; font-family: gambria;}
+article .kanan p {text-align: justify; margin-bottom: 15px;}
+article .kiri {width: 300px; float: left;}
+article .kiri .kiritengah {background: #FC427B; padding: 15px; margin-top: 30px;}
+article .kiri .kiritengah h1 {color: #121111;}
+article .kiri .kiritengah img {width: 45px; padding-right: 10px;}
+article .kiri .kiritengah img:hover {width: 52px;}
+article .kiri .kiribawah {margin-top: 25px;}
+article .kiri .kiribawah h1 {margin-bottom: 10px;}
+
+article .kanan .tengah .kiritengah {width: 190px; float: left; border-left: 4px solid red; margin-bottom: 30px; color: red; padding: 10px;}
+article .kanan .tengah .kiritengah h2 {text-decoration: underline 3px solid red;}
+article .kanan .tengah .tengahtengah {width: 190px; float: left; border-left: 4px solid blue; margin-bottom: 30px; color: blue; padding: 10px;}
+article .kanan .tengah .tengahtengah h2 {text-decoration: underline 3px solid blue;}
+article .kanan .tengah .kanantengah {width: 190px; float: left; border-left: 4px solid green; margin-bottom: 30px; color: green; padding: 10px;}
+article .kanan .tengah .kanantengah h2 {text-decoration: underline 3px solid green;}
+
+article .kanan {width: 650px; float: right;}
+article .kanan .atas img {width: 650px; height: 340px;}
+article .kanan .atas p {margin-top: 20px;}
+article .kanan .bawah {margin-top: 45px;}
+
+article .kanan .bawah .kiribawah {width: 315px; float: left; border-bottom: 4px solid #f41515; border-top: 4px solid #f31111; margin-bottom: 30px;}
+article .kanan .bawah .kananbawah {width: 315px; float: right; border-bottom: 4px solid #f41414; border-top: 4px solid #f01313; margin-top: 4px solid #952323; margin-bottom: 30px;}
+article .kanan .bawah .kananbawah img {width: 45px; margin-left: 12px;}
+article .kanan .bawah h1,p {margin-left: 12px;}
+
+footer {background: #952323; color: white; text-align: center; font-size: 15px;
+ line-height: 40px; height: 40px; margin-top: 30px;
+}
+footer a {color: white;}
+
+
+nav ul li { float: left; list-style: none; background: pink;}
+nav ul li a {margin-right: 15px; text-decoration: none; padding: 3px 15px;}
+
+nav ul li ul {display: none;}
+
+nav ul li:hover > ul {display: block;}
+
+nav { background: pink; height: 40px; line-height: 40px; position: sticky; top: 0;}
+nav ul li ul {position: absolute;}
+
+nav ul li ul li {float: none; position: relative;}
+
+
+nav ul li:hover {background: #f8a5c2}
+nav ul li a:hover {color: white;}
+
+nav ul ul ul {left: 100%; top: 0; width: 200px;}
+
+form {background: #c7ecee; padding: 25px; width: 600px; margin: auto; border: 2px solid pink; border-radius: 7px; margin-bottom: 10px;}
+
+.itemform {background: #f4d6d6; padding: 15px; border: 1.5px solid black; overflow: hidden;}
+.itemform .form1 {float: left; margin-right: 30px;}
+.itemform .form1 label {display: block; line-height: 30px;}
+
+.itemform .form2 input {margin: 2px; line-height: 26px; width: 350px;}
+.itemform .form2 input.inputText {padding: 0 0 0 10px;}
+.itemform .form2 input.inputText:hover {background-color: #E5C3D1; 
+border-radius: 5px; font-size: 15px; border: 1px solid purple;}
+
+fieldset {border: 2px solid black; background: #D1D1D1; border-radius: 5px;
+padding: 10px; width: 300px;}
+fieldset legend {background: #FEFEFA; color:black; padding: 3px 10px;
+border-radius: 5px; box-shadow: 0 3px red; width: 200px; margin-left: 10px;}
+
+select {width: 150px; font-size: 15px; background: #ddd;
+padding: 10px; border-radius: 4px;}
+
+textarea {display: block;}
+
+.tool {padding: relative;}
+.tool .tips {display: inline;}
+.tool .tips span {display: none;}
+.tips:hover span {display: inline-block; background-color: black; color: white;
+padding: 5px; font-size: 12px;}
+
+input[type=password] {padding: 8px; margin-left: 10px; background-color: #C1BBDD;
+color: black;}
+input[type=submit], button[type=button] {padding: 8px;}
+
+input[type=submit]:hover, button[type=button]:hover {color: white;
+background-color: black;}
+
+.tool button:hover {transition: background 2s ease-in-out;}
+
+table {font-family: "Arial";}
+caption {background-color: black; color: white; font-size: 26px;
+padding: 10px;
+}
+th, td {padding: 5px 25px;}
+
+thead {background-color: steelblue; color: silver;}
+tbody {background-color: silver;}
+td {color: blue;}
+tfoot{background-color: seagreen; color: white;}
+
+tbody tr td:nth-child(2) {
+    text-align: center;
+}
+
+tbody tr td:nth-child(3),
+tbody tr td:nth-child(4)  {
+    text-align: right;
+}
+
+tr:nth-child(even){background-color: white;}
+
+.foto {width: 225px;}
+.foto img {width: 150px; height: 150px;}
+.foto {float: left; margin: 13px;}
+.foto .judul {font-size: 20px; color: red;}
+
+.border {margin-top: 30px; border: 2px solid blue; padding: 20px; margin-bottom: 50px;}
+

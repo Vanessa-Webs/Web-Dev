@@ -1,0 +1,38 @@
+* {padding: 0; margin:0;}
+
+body {background: #b2bec3; padding: 15px; font-size: 18px;}
+form {background: #c7ecee; padding: 25px; width: 600px; margin: auto; border: 2px solid pink; border-radius: 7px;}
+
+.itemform {background: #f4d6d6; padding: 15px; border: 1.5px solid black; overflow: hidden;}
+.itemform .form1 {float: left; margin-right: 30px;}
+.itemform .form1 label {display: block; line-height: 30px;}
+
+.itemform .form2 input {margin: 2px; line-height: 26px; width: 350px;}
+.itemform .form2 input.inputText {padding: 0 0 0 10px;}
+.itemform .form2 input.inputText:hover {background-color: #E5C3D1; 
+border-radius: 5px; font-size: 15px; border: 1px solid purple;}
+
+fieldset {border: 2px solid black; background: #D1D1D1; border-radius: 5px;
+padding: 10px; width: 300px;}
+fieldset legend {background: #FEFEFA; color:black; padding: 3px 10px;
+border-radius: 5px; box-shadow: 0 3px red; width: 200px; margin-left: 10px;}
+
+select {width: 150px; font-size: 15px; background: #ddd;
+padding: 10px; border-radius: 4px;}
+
+textarea {display: block;}
+
+.tool {padding: relative;}
+.tool .tips {display: inline;}
+.tool .tips span {display: none;}
+.tips:hover span {display: inline-block; background-color: black; color: white;
+padding: 5px; font-size: 12px;}
+
+input[type=password] {padding: 8px; margin-left: 10px; background-color: #C1BBDD;
+color: black;}
+input[type=submit], button[type=button] {padding: 8px;}
+
+input[type=submit]:hover, button[type=button]:hover {color: white;
+background-color: black;}
+
+.tool button:hover {transition: background 2s ease-in-out;}

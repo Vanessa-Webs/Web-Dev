@@ -1,0 +1,165 @@
+* {padding: 0; margin: 0}
+
+.container {width: 1000px;margin: auto; background: #D6A2E8;}
+body {background: #c7ecee; margin-top: 45px;}
+/* ini css header*/
+header {height: 125px; background: #38ada9; overflow: hidden;}
+header .kiri img {border-radius: 100px; width: 100px; height: 100px; margin: 15px 0 0 30px; float: left;}
+header .kanan {float: left; font-size: 20px; color: white; margin: 15px 0 0 30px}
+
+
+menu {
+	background: silver;
+	height: 45px;
+	margin-bottom: 20px;
+	width: 1000px;
+}
+
+menu ul li {float: left; list-style: none;
+	float: left;border-right: 1px solid red;
+}
+
+menu ul li a {
+text-decoration: none; list-style: none;
+	
+	padding: 0 35px; color: red; line-height: 45px;
+}
+
+menu ul li ul {display: none;}
+
+menu ul li:hover > ul {display: block;}
+
+
+menu ul li ul{position: absolute;background: silver;}
+
+menu ul li ul li {float: none;
+	position: relative;
+}
+
+menu ul li a:hover {color: white;}
+
+menu ul li ul li ul {left: 100%;
+	top: 0;
+	width: 250px;
+}
+
+article {overflow: hidden;}
+article h1 {color: green; margin-bottom: 10px; font-size: 30px; font-family: gambria}
+article p {text-align: justify; margin-bottom: 15px;}
+article .kiri {width: 300px; float: left; }
+article .kiri .kiritengah {background: #747d8c; padding: 15px; margin-top: 30px; margin-bottom: 40px;}
+article .kiri .kiritengah h1 {color: White;}
+article .kiri .kiritengah img {width: 45px; padding-right: 20px;}
+article .kiri .kiritengah img:hover {width: 52px;}
+article .kiri h2 {color: black; margin-top: 15px; margin-left: 15px;}
+article .kiri iframe {width: 300px; height: 200px; margin-top: 10px; margin-left: 15px;}
+article .kiritengah{margin-left: 15px;}
+
+article .kanan {width: 650px;float: right;}
+article .kanan .atas img {width: 650px; height:340px;}
+article .kanan .atas p {margin-top: 20px; margin-right: 15px;}
+
+
+article .kanan .bawah {overflow: hidden; margin-top: 45px;}
+article .kanan .bawah .kiribawah {width: 315px; float: left; height: 110px; border-top: 4px solid red; border-bottom: 4px solid red;}
+article .kanan .bawah .kananbawah {width: 315px; float: right; height: 110px; border-top: 4px solid red; border-bottom: 4px solid red;}
+article .kanan .bawah .kananbawah img {width: 45px; margin-left: 15px;}
+article .kanan .bawah h1,p {margin-left: 15px;}
+
+form {background: #c7ecee; padding: 25px; width: 600px; margin: auto; border: 2px solid pink; border-radius: 7px; margin-bottom: 10px;}
+
+.itemform {background: #f4d6d6; padding: 15px; border: 1.5px solid black; overflow: hidden;}
+.itemform .form1 {float: left; margin-right: 30px;}
+.itemform .form1 label {display: block; line-height: 30px;}
+
+.itemform .form2 input {margin: 2px; line-height: 26px; width: 350px;}
+.itemform .form2 input.inputText {padding: 0 0 0 10px;}
+.itemform .form2 input.inputText:hover {background-color: #E5C3D1; 
+border-radius: 5px; font-size: 15px; border: 1px solid purple;}
+
+fieldset {border: 2px solid black; background: #D1D1D1; border-radius: 5px;
+padding: 10px; width: 300px;}
+fieldset legend {background: #FEFEFA; color:black; padding: 3px 10px;
+border-radius: 5px; box-shadow: 0 3px red; width: 200px; margin-left: 10px;}
+
+select {width: 150px; font-size: 15px; background: #ddd;
+padding: 10px; border-radius: 4px;}
+
+textarea {display: block;}
+
+.tool {padding: relative;}
+.tool .tips {display: inline;}
+.tool .tips span {display: none;}
+.tips:hover span {display: inline-block; background-color: black; color: white;
+padding: 5px; font-size: 12px;}
+
+input[type=password] {padding: 8px; margin-left: 10px; background-color: #C1BBDD;
+color: black;}
+input[type=submit], button[type=button] {padding: 8px;}
+
+input[type=submit]:hover, button[type=button]:hover {color: white;
+background-color: black;}
+
+.tool button:hover {transition: background 2s ease-in-out;}
+
+table {font-family: "Arial";}
+caption {background-color: black; color: white; font-size: 26px;
+padding: 10px;
+}
+th, td {padding: 5px 25px;}
+
+thead {background-color: steelblue; color: silver;}
+tbody {background-color: silver;}
+td {color: blue;}
+tfoot{background-color: seagreen; color: white;}
+
+tbody tr td:nth-child(2) {
+    text-align: center;
+}
+
+tbody tr td:nth-child(3),
+tbody tr td:nth-child(4)  {
+    text-align: right;
+}
+
+tr:nth-child(even){background-color: white;}
+
+.foto {width: 225px;}
+.foto img {width: 150px; height: 150px;}
+.foto {float: left; margin: 13px;}
+.foto .judul {font-size: 20px; color: red;}
+
+.border {margin-top: 30px; border: 2px solid blue; padding: 20px; margin-bottom: 50px;}
+
+form {background-color: aqua; padding: 10px;
+}
+footer {width: 1000px; background: #b33939; color: white; text-align: center; font-size: 15px; position: fixed; bottom: 0;
+line-height: 40px; height: 40px; margin-top: 30px;}
+
+footer a {color: White;}
+
+.Testi { height: 600px; margin-top: 100px; margin-bottom: -200px;}
+
+
+.Testi .TestiNama {margin-left: 60px;}
+.Testi .TestiNama .TestiKiri {color: white; float: left; background-color:black; width:215px; height: 250px; border-radius: 4px; padding: 40px;}
+.Testi .TestiNama .TestiTengah {color: white; float: left; background-color: black; width: 215px; height:250px; border-radius: 4px; padding: 40px;}
+.Testi .TestiNama .TestiKanan {color: white; float: left; background-color: black; width: 215px; height: 250px; border-radius: 4px; padding: 40px;}
+
+.Testi .TestiNama img {height: 50px; width: 50px; border-radius: 1000px;}
+
+
+.Testi .TestiNama .profilesone {float: left;}
+.Testi .TestiNama .nameone{float: right; margin-right: 100px; margin-top: 8px;}
+
+.Testi .TestiNama .profilestwo {float: left;}
+.Testi .TestiNama .nametwo {float: right; margin-right: 100px; margin-top: 8px;}
+
+.Testi .TestiNama .profilesthree {float: left;}
+.Testi .TestiNama .namethree {float: right; margin-right: 100px; margin-top: 8px;}
+
+.nameone h3 {margin-top: -15px;}
+.nametwo h3 {margin-top: -15px;}
+.namethree h3 {margin-top: -15px;}
+
+.bawah2 img {width: 450px; height: 300px; margin-bottom: 500px; margin-left: 60px;}
